@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pw Skill Blogs || Write Your Story Here</title>
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- FontAwsome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body id="body">
+    <!-- Modal -->
+    <div class="modal">
+      <form id="blog-form">
+        <button id="cancel"><i class="fa-solid fa-xmark"></i></button>
+        <input type="text" id="blog-url" placeholder="Enter Blog Post URL:" />
+        <input type="text" id="blog-title" placeholder="Enter Blog Title" />
+        <input
+          type="text"
+          id="blog-desc"
+          placeholder="Enter Blog Description"
+        />
+        <textarea
+          name=""
+          id="blog-content"
+          cols="30"
+          rows="10"
+          placeholder="Write"
+        >
+        </textarea>
+        <button id="create-blog" type="submit">Add Blog</button>
+      </form>
+    </div>
+    <!-- Header section -->
+    <header class="header">
+      <div class="name">
+        <h1>PWSkill Blog</h1>
+      </div>
+      <button class="add--blog" onclick="showModal()">
+        Add Blog <i class="fa-solid fa-plus"></i>
+      </button>
+    </header>
+    <!-- Hero Section -->
+    <div class="hero-section">
+      <div class="blog-card">
+        <img src="https://plus.unsplash.com/premium_photo-1687187499404-2ed3c77b3cfe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60" alt="img" />
+        <h3 id="card-title">Blog-Title</h3>
+        <p id="card-desc">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem,
+         dolorum quidem, laborum vero quia soluta corrupti,
+          nemo facilis sit!
+        </p>
+        <button class="read-blog">Read</button>
+      </div>
+      
+    </div>
+
+
+    <script src="./script.js"></script>
+  </body>
+</html>
