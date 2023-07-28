@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  background: linear-gradient(180deg,#7d30dc,#1e1522 );
+}
+.main{
+  width:100%;
+  height: 800px;
+}
+.header{
+  height: 70px;
+  width: 40%;
+  margin: 50px auto;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+.input-box{
+  width: 75%;
+  height: 80%;
+  font-size: 1.5em;
+  font-weight: 600;
+  border: none;
+  outline:none;
+  text-transform: capitalize;
+}
+.header button{
+  width:70px;
+  height: 40px;
+  border: none;
+  background-color:#7d30dc;
+  font-size: 1.1em;
+  color: #fff;
+  font-weight: 600;
+  text-transform: capitalize;
+  border-radius: 10px;
+}
+.hero-section{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.card{
+  width:350px;
+  height: 300px;
+  background: #262a2e;
+  border-radius: 20px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+#card-title{
+  width: 90%;
+  font-size: 2.2em;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+#card-status{
+  width: 90%;
+  font-size: 1.3em;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.card button{
+  width:90%;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  color:#fff;
+  background-color: #7d30dc;
+  font-size: 1.2em;
+  font-weight: 600;
+  text-align: center;
+  text-transform: capitalize;
+}
