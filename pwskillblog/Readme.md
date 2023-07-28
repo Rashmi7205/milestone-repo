@@ -6,12 +6,17 @@ This is a blogging web application that allows users to create, view, and manage
 
 ## Folder Structure
 |-index.html
+
     |-Contains all the Html Elements
 |-style.css
+
     |-Styling for the page
 |-script.js
+    
     |-localstorage setup
+    
     |-stucture of the blogs 
+    
     |-Logic for creating and reading a blog in UI
 ## Home Page
 
